@@ -2,12 +2,12 @@
 #include <ArduinoJson.h>
 #include "sha3.h"
 
-const char* ssid     = "TP-Link_CCC7";
-const char* password = "69538001";
+const char* ssid     = "WiFi";
+const char* password = "PW";
 
 const char* poolHost = "xmr-eu1.nanopool.org"; // Replace with your mining pool address
 const int poolPort = 10300;                  // Replace with your mining pool port
-const char* walletAddress = "1112"; // Replace with your wallet address
+const char* walletAddress = "MoneroAddress"; // Replace with your wallet address, monero is not supported on Binance and Metamask
 
 WiFiClient client;
 
